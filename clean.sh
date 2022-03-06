@@ -1,3 +1,3 @@
 #!/bin/sh
 
-make -C ./buildroot distclean
+make -C ./buildroot distclean 
