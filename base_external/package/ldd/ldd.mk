@@ -14,8 +14,8 @@ LDD_SITE_METHOD = git
 LDD_GIT_SUBMODULES = YES
 
 # Adding scull and misc-modules subdirectory.
-LDD_MODULE_SUBDIR = scull
-LDD_MODULE_SUBDIR += misc-modules
+LDD_MODULE_SUBDIRS = scull
+LDD_MODULE_SUBDIRS += misc-modules
 
 # TODO adding all the dependencies(scull and misc-modules).
 define LDD_INSTALL_TARGET_CMDS
